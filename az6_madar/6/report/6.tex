@@ -1,0 +1,41 @@
+\documentclass[final]{report}
+\usepackage{graphicx}
+\usepackage{attachfile2}
+\usepackage{xepersian}
+\settextfont{XB Niloofar}
+\setdigitfont{Parsi Digits}
+
+\makeatletter
+\renewcommand{\thesection}{%
+  \ifnum\c@chapter<1 \@arabic\c@section
+  \else \thechapter.\@arabi1c\c@section
+  \fi
+}
+\makeatother
+
+\title{
+	آزمایش‌گاه مدارهای منطقی
+	\\
+	{
+		\large
+		گزارش آزمایش ششم
+		\\
+		تایمر ماشین لباس‌شویی
+	}
+}
+\author{
+\begin{tabular}{rl}
+احمد احمدیان مقدم	&	۹۰۱۰۵۹۳۴
+\\
+ رامتین رسولی	&	۹۰۱۰۵۴۸۶
+\\
+ سهند مظفری	&	۹۰۱۰۶۱۴۷
+\end{tabular}
+}
+
+\begin{document}
+	\maketitle
+
+	\input{6_1.tex}
+	
+\end{document} 
